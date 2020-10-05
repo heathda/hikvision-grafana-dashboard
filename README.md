@@ -19,4 +19,8 @@ If your data is stored in a different measurement (table), you will need to adju
 - Static IP
 - Video Encoding
 
+The dashboard can be imported from the Grafana site over here https://grafana.com/grafana/dashboards/13107.  
+
+Additionally, the json is part of this repo.
+
 ![graf-sm](https://user-images.githubusercontent.com/71768221/95124108-f2df4b00-0720-11eb-93e8-211e0a8ca831.png)
