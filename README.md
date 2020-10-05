@@ -13,4 +13,4 @@ This dashboard works with a telegraf collector which can be found over here http
 - Static IP
 - Video Encoding
 
-
+![graf-sm](https://user-images.githubusercontent.com/71768221/95124108-f2df4b00-0720-11eb-93e8-211e0a8ca831.png)
