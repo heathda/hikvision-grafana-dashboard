@@ -5,7 +5,7 @@ This is a Grafana dashboard to display information about your Hikvision IP Camer
 
 This dashboard works with a telegraf collector which can be found over here https://github.com/heathda/hikvision-telegraf-collector
 
-## Statistics Displayed
+### Statistics Displayed
 - Manufacturer
 - Device Model
 - CPU Percentage
