@@ -5,6 +5,12 @@ This is a Grafana dashboard to display information about your Hikvision IP Camer
 
 This dashboard works with a telegraf collector which can be found over here https://github.com/heathda/hikvision-telegraf-collector
 
+The graphs are dynamic and change based on the number of cameras you are collecting data on.  Additionally you can view a single camera, a few cameras, or all cameras based on the variable selected at the top of the dashboard in the "Camera IP" dropdown.  
+
+The dataSource variable you select at the top of the page will represent the hostname/IP address of the device you have your influxdb residing.  This dashboard is setup to query the "snmp" measurement (more commonly known as a table in other databases) in the influx database.  
+
+If your data is stored in a different measurement (table), you will need to adjust that in the query section of the first camera table/gauges/graphs.  Select only the first camera in the "Camera IP" drop down, make your changes to the query for each table/gauges/graphs in that section, and that change will propagate throughout the rest of the dynamically created table/gauges/graphs.
+
 ### Statistics Displayed
 - Manufacturer
 - Device Model
